@@ -15,7 +15,7 @@ public class Cinema {
      */
     public static void main(String[] args) {
         
-        String[][] cinemaSeats = new String[7][10];
+        String[][] cinemaSeats = new String[8][10];
         
         cinemaSeats[0][0] = "A01";
         cinemaSeats[0][1] = "A02";
@@ -93,6 +93,17 @@ public class Cinema {
         cinemaSeats[6][7] = "G08";
         cinemaSeats[6][8] = "G09";
         cinemaSeats[6][9] = "G10";
+        
+        cinemaSeats[7][0] = "H01";
+        cinemaSeats[7][1] = "H02";
+        cinemaSeats[7][2] = "H03";
+        cinemaSeats[7][3] = "H04";
+        cinemaSeats[7][4] = "H05";
+        cinemaSeats[7][5] = "H06";
+        cinemaSeats[7][6] = "H07";
+        cinemaSeats[7][7] = "H08";
+        cinemaSeats[7][8] = "H09";
+        cinemaSeats[7][9] = "H10";
         
         for (int i = 0; i < cinemaSeats.length; i++) {
             for (int a = 0; a < cinemaSeats[i].length; a++) {
